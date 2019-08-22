@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    box-sizing: border-box;
 
 }
 
@@ -41,7 +42,6 @@ ul {
 
   li {
       display: inline;
-      /* text-decoration-line: underline; */
       word-spacing: 5px;
   }
 
@@ -59,6 +59,7 @@ ul {
       text-align: left;
       margin-left: 245px;
       margin-top: 75px;
+      border-width: 0;
       /* border: 1px solid black; */
       
   }
@@ -69,8 +70,156 @@ ul {
       color: white;
       text-align: left;
       margin-left: 245px;
-      /* border: 1px solid black; */ 
+      border-width: none;
+      /* border: 1px solid black;  */
+      
   }
 
+  /* #likeButton {
+      display: inline-block;
+       
+  } */
   
-  /* li::after {content: "|"} */
+
+
+  #ColumnBox1 {
+      width: 328px;
+      height: 200px;
+      background-color: #f7f7f7;
+      border: 1px thin black;
+      margin-right: 10px;
+      float: left;      
+  }
+
+  #ColumnBox2 {
+      width: 512px;
+      height: 200px;
+      background-color: #f7f7f7;
+      border: 1px thin black;
+      float: right;
+      
+  }
+
+  #Column {
+      width: 850px;
+      margin: 0 auto;
+      height: 10px;
+
+
+  }
+
+
+  p{
+      color: black;
+      font-family: sans-serif;
+      font-weight: bold;
+      margin-left: 10px;
+      text-decoration-line: underline;
+  }
+
+  #FriendBox1 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 20px;
+  }
+
+  #FriendBox2 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+  }
+
+  #FriendBox3 {
+    background-color:#3b5998;
+    width: 50px;        
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+       
+  }
+
+  #FriendBox4 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+
+  }
+
+  #FriendBox5 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+
+  }
+
+  #FriendBox6 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+  }
+
+  #FriendBox7 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+  }
+
+  #FriendBox8 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+  }
+
+  #FriendBox9 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+  }
+
+  #FriendBox10 {
+    background-color:#3b5998;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    margin-left: 60px;
+  }
+    
+  
