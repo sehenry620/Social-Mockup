@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+}
+
+#outer {
+    background-color: white;
+    width: 850px;
+    height: 400px;
+    margin: 0 auto;
+   
+
+}
+
+#first {
+    background-color: mediumblue;
+    width 850px;
+    height: 350px;
+    margin: 0 auto;
+     
+}
+
+#second {
+    background-color: mediumblue;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    top: 185px;
+    left: 30px;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+ }
+
+  li {
+      display: inline;
+      
+  }
